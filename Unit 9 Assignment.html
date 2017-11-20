@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	
+<div id="textchange">
+<p><span><strong>We</strong> have just started <strong>this</strong> section for the users (<strong>beginner</strong> to intermediate) who want to work with <strong>various</strong> JavaScript <strong>problems</strong> and write scripts online to <strong>test</strong> their JavaScript <strong>skill</strong>.</span></p>
+</div>
+
+<script type="text/javascript">
+	
+var links = document.getElementsByTagName('strong');
+
+for(var i=0; i<links.length; i++) {
+    links[i].addEventListener('mouseover', function() {
+        this.style.color = "red";
+    });
+}
+
+
+
+
+
+
+</script>
+
+</body>
+</html>
